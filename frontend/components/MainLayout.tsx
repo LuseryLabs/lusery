@@ -16,9 +16,8 @@ export default function MainLayout({
 }>) {
   return (
     <html>
-      <body className="max-w-7xl mx-auto">
+      <body>
         <Navbar />
-        <Banner />
         {children}
         <Footer />
       </body>
