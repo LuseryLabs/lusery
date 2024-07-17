@@ -25,10 +25,8 @@ export function Footer() {
     <footer className="bg-muted py-6 text-muted-foreground">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 sm:flex-row sm:gap-0">
         <div className="flex items-center gap-2">
-          <Link href="#" prefetch={false} className="flex items-center gap-2">
             <MountainIcon className="h-6 w-6" />
             <span className="text-lg font-medium">LuseryLabs</span>
-          </Link>
         </div>
         <p className="text-sm">&copy; 2024 LuseryLabs. All rights reserved.</p>
         <nav className="flex items-center gap-4">
