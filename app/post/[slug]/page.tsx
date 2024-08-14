@@ -11,9 +11,13 @@ const PostPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const { slug } = useParams();
 
-  useEffect(() => {
-    if (!slug) return;
 
+  useEffect(() => {
+
+    console.log('API URL:', process.env.NEXT_PUBLIC_GHOST_API_URL);
+    console.log('API KEY:', process.env.NEXT_PUBLIC_GHOST_API_KEY);
+    console.log('Fetching post for slug:', slug);
+    if (!slug) return;
     const fetchPost = async () => {
       try {
         const res = await fetch(
@@ -123,6 +127,3 @@ const PostPage: React.FC = () => {
 };
 
 export default PostPage;
-
-
-

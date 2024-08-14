@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Navbar } from "@/components/navbar";
+import Banner from "@/components/Banner";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Blog Ghost",
@@ -12,10 +15,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html>
-      <body className="max-w-7xl mx-auto">
-        {children}
-      </body>
-    </html>
+    
+      <html>
+        <body className="max-w-7xl mx-auto">
+          <Navbar />
+          <Banner />
+          {children}
+          <Footer />
+        </body>
+      </html>
+   
   );
 }
