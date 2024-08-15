@@ -13,11 +13,8 @@ const PostPage: React.FC = () => {
 
 
   useEffect(() => {
-
-    console.log('API URL:', process.env.NEXT_PUBLIC_GHOST_API_URL);
-    console.log('API KEY:', process.env.NEXT_PUBLIC_GHOST_API_KEY);
-    console.log('Fetching post for slug:', slug);
     if (!slug) return;
+    
     const fetchPost = async () => {
       try {
         const res = await fetch(
