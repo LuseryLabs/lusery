@@ -15,7 +15,21 @@ export function LandingPage() {
           className="inline-flex items-center justify-center rounded-md bg-slate-300 px-5 py-3 text-lg font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2"
           prefetch={false}
         >
-          Enter
+          IA
+        </Link>
+        <Link
+          href="/blockchain"
+          className="inline-flex items-center justify-center rounded-md bg-slate-300 px-5 py-3 text-lg font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2"
+          prefetch={false}
+        >
+          Blockchain
+        </Link>
+        <Link
+          href="/web3"
+          className="inline-flex items-center justify-center rounded-md bg-slate-300 px-5 py-3 text-lg font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2"
+          prefetch={false}
+        >
+          Programacion web3
         </Link>
       </div>
     </main>

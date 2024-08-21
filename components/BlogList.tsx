@@ -40,7 +40,11 @@ function BlogList({ posts }: Props) {
                     </p>
                   </div>
                   <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
-                    {post.tags.map((tag) => (
+                    {post.tags
+                    .filter(tag => tag.name !== 'Web3')
+                    .filter(tag => tag.name !== 'Blockchain')
+                    .filter(tag => tag.name !== 'IA')
+                    .map((tag) => (
                       <div
                         key={tag.id}
                         className="bg-[#0AABF7] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"

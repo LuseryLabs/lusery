@@ -10,7 +10,7 @@ export default function AI() {
     async function fetchPosts() {
         try {
             const response = await fetch(
-                `${process.env.NEXT_PUBLIC_GHOST_API_URL}/posts/?key=${process.env.NEXT_PUBLIC_GHOST_API_KEY}&filter=tags:ia&include=authors,tags`
+                `${process.env.NEXT_PUBLIC_GHOST_API_URL}/posts/?key=${process.env.NEXT_PUBLIC_GHOST_API_KEY}&filter=tags:blockchain&include=authors,tags`
             );
 
             if (!response.ok) {
@@ -31,7 +31,7 @@ export default function AI() {
     return (
         <div>
             <MainLayout>
-                <h2> INTELIGENCIA ARTIFICIAL </h2>
+                <h2> BLOCKCHAIN </h2>
                 <BlogList posts={posts} />
             </MainLayout>
         </div>
