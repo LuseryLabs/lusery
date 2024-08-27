@@ -8,7 +8,11 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "ghost-production-e1b9.up.railway.app",
+        hostname: "luserylabs-ghost.up.railway.app",
+      },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
       },
       {
         protocol: "http",
