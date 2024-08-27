@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { Post } from "@/typings";
 import Image from "next/image";
+import "./postStyles.css";
+
 
 const PostPage: React.FC = () => {
   const [post, setPost] = useState<Post | null>(null);
@@ -115,7 +117,7 @@ const PostPage: React.FC = () => {
       </section>
       <section className="mt-10">
         <div
-          className="post-content"
+          className="post-content stylePostCSS"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
       </section>

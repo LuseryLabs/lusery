@@ -1,0 +1,62 @@
+.stylePostCSS {
+    width: 75%; 
+    margin: 0 auto; 
+    text-align: left; 
+    color: #ffffff;
+}
+
+.stylePostCSS h1 {
+    font-weight: bold; 
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    color: blue;
+}
+
+.stylePostCSS h2  {
+    font-weight: bold; 
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    color: blueviolet;
+}
+
+.stylePostCSS h3 {
+    font-weight: bold; 
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    color: green;
+}
+
+.stylePostCSS p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.stylePostCSS img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px; 
+    margin-bottom: 1rem;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stylePostCSS pre {
+    background-color: #2d3748; 
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1rem;
+}
+
+.stylePostCSS .highlight {
+    background-color: #0AABF7; 
+    color: #ffffff;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
