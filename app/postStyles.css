@@ -19,12 +19,29 @@
     color: #ffffff;
 }
 
-.stylePostCSS p {
+.stylePostCSS h4 {
+    font-size: 1.50rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.stylePostCSS p, ul {
     font-size: 1.2rem;
     line-height: 1.8;
     color: #ffffff;
     margin-bottom: 1rem;
 }
+
+.stylePostCSS li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    list-style-type: disc;
+    margin-left: 1rem;
+}
+
+
 
 .stylePostCSS img {
     max-width: 100%;
