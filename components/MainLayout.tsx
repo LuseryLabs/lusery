@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import Banner from "@/components/Banner";
-import { Footer } from "@/components/footer";
+import { Footer } from "@/components/Footer";
 
 
 export const metadata: Metadata = {

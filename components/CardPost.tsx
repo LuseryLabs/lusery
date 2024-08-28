@@ -35,7 +35,7 @@ const CardPost: React.FC<Props> = ({ post }) => {
               </p>
             </div>
             <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-2 items-center">
-              {post.tags.map((tag) => (
+              {post.tags?.map((tag) => (
                 <div
                   key={tag.id}
                   className="bg-[#0AABF7] text-center text-black px-3 py-1 rounded-full text-sm font-semibold"
