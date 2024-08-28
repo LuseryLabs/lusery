@@ -5,8 +5,8 @@ import { useParams } from "next/navigation";
 import { Post } from "@/typings";
 import PostHeader from "@/components/post/PostHeader";
 import PostContent from "@/components/post/PostContent";
-import { Footer } from "@/components/Footer";
-import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/footer";
+import { Navbar } from "@/components/navbar";
 import PostRecommended from "@/components/PostRecommended";
 
 const PostPage: React.FC = () => {
