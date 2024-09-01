@@ -6,7 +6,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full bg-background border-b">
       <div className="container flex items-center justify-between h-16 px-4 md:px-6">
-        <Link href="#" className="flex items-center gap-2 text-lg font-semibold" prefetch={false}>
+        <Link href="/" className="flex items-center gap-2 text-lg font-semibold" prefetch={false}>
           <MountainIcon className="w-6 h-6" />
           <span className="sr-only">Acme Blog</span>
           <span>Luserylabs</span>
