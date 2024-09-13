@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import BlogList from '@/components/BlogList'
 import { Post } from "../../typings";
 import MainLayout from '@/components/MainLayout';
+import BannerBlockchain from "@/components/BannerBlockchain";
 
 export default function AI() {
     const [posts, setPosts] = useState<Post[]>([]);
@@ -30,8 +31,8 @@ export default function AI() {
 
     return (
         <div>
-            <MainLayout>
-                <h2> BLOCKCHAIN </h2>
+            <MainLayout> 
+                <BannerBlockchain />
                 <BlogList posts={posts} />
             </MainLayout>
         </div>
