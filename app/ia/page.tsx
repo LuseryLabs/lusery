@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import BlogList from '@/components/BlogList'
 import { Post } from "../../typings";
 import MainLayout from '@/components/MainLayout';
-import BannerIA from '@/components/BannerIA';
+import Banner from '@/components/Banner';
 
 export default function AI() {
     const [posts, setPosts] = useState<Post[]>([]);
@@ -32,7 +32,12 @@ export default function AI() {
     return (
         <div>
             <MainLayout>
-                <BannerIA /> 
+                <Banner
+                    title="Inteligencia Artificial"
+                    subtitle="a tu blog de confianza"
+                    spanText="locos por la Automatización"
+                    description="Noticias | Lo último en automatizaciones | IA y mucho más!"
+                />
                 <BlogList posts={posts} />
             </MainLayout>
         </div>
