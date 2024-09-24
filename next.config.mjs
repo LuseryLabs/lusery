@@ -4,14 +4,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "static.ghost.org",
-      },
-      {
-        protocol: "http",
-        hostname: "localhost",
+        hostname: "luserylabs-ghost.up.railway.app",
       },
     ],
   },
 };
 
 export default nextConfig;
+
