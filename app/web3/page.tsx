@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import BlogList from '@/components/BlogList'
 import { Post } from "../../typings";
 import MainLayout from '@/components/MainLayout';
+import Banner from '@/components/Banner';
 
 export default function AI() {
     const [posts, setPosts] = useState<Post[]>([]);
@@ -31,7 +32,12 @@ export default function AI() {
     return (
         <div>
             <MainLayout>
-                <h2> DESARROLLO WEB3 </h2>
+                <Banner
+                    title="Programación en web3"
+                    subtitle="a tu blog de confianza"
+                    spanText="locos por la web3"
+                    description="Noticias | Lo último en desarrollos | web3 y mucho más!"
+                />
                 <BlogList posts={posts} />
             </MainLayout>
         </div>

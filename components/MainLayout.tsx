@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/navbar";
-import Banner from "@/components/Banner";
 import { Footer } from "@/components/footer";
 
 
@@ -17,7 +16,6 @@ export default function MainLayout({
   return (
     <>
       <Navbar />
-      <Banner />
       {children}
       <Footer />
     </>
